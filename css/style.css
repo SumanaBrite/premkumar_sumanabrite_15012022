@@ -6,17 +6,14 @@
 
 }
 * {
-    -webkit-box-sizing: border-box;
+    /* -webkit-box-sizing: border-box; */
     box-sizing: border-box;
     margin:0px;
     padding:0px;
     font-family: 'Shrikhand', cursive;
     font-family: 'Roboto', sans-serif;
    }
-body{
-    box-sizing: border-box;
-    margin: auto;
-}
+
 .item-center{
     justify-content: center;
     align-items: center;
@@ -33,6 +30,19 @@ header{
     position: relative; 
     box-shadow: 0 0 0.5rem #00000066;
    
+}
+header a .arrow__back {
+    display: flex;
+    align-items: center;
+    left: 2rem;
+    width: 2rem;
+    height: 2rem;
+    top:1.5rem;
+    color: #000;
+    font-size: 1.3rem;
+    position: absolute;
+    
+    
 }
 header .logo{
     text-align: center;
@@ -345,7 +355,7 @@ font-size: x-large;
 }
 .heart__color:hover{
     opacity: 1;
-    background: gradient(linear, left bottom, left top, from(#9356dc), to(#ff79da));
+    /* background: gradient(linear, left bottom, left top, from(#9356dc), to(#ff79da)); */
     background: linear-gradient(0deg, #545355, #ff79da);
     -webkit-transition: all 1.5s;
     transition: all 1.5s;
