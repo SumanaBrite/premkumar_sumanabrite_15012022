@@ -81,7 +81,6 @@
 .menu__card .menu__item:hover .menu__item--icon {
   transform: rotate(0);
 }
-
 @media screen and (min-width: 1024px) {
   .menu .menu__cards {
     display: grid;
@@ -96,5 +95,4 @@
     margin-top: -4rem;
   }
 }
-
 /*# sourceMappingURL=menu.css.map */

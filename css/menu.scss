@@ -1,17 +1,14 @@
-
-
+// @import "style";
 .menu__card {
     width: 100%;
     overflow: hidden;
     padding: 0 1rem;
-
     h3 {
         text-transform: uppercase;
         position: relative;
         padding-bottom: .5rem;
         font-weight: 400;
         margin: 1.2rem 0;
-
         &:after {
             content: "";
             background: #99e2d0;
@@ -22,7 +19,6 @@
             height: .25rem;
         }
     }
-
     .menu__item {
         background: #fff;
         border-radius: .75rem;
@@ -33,17 +29,14 @@
         margin: 1rem 0;
         cursor: pointer;
         max-width: 100%;
-
         &--text {
             flex: 1;
             overflow: hidden;
-
             h4 {
                 overflow: hidden;
                 white-space: nowrap;
                 text-overflow: ellipsis;
             }
-
             p {
                 margin: 0;
                 white-space: nowrap;
@@ -51,7 +44,6 @@
                 overflow: hidden;
             }
         }
-
         &--price {
             font-weight: 700;
             display: flex;
@@ -59,7 +51,6 @@
             align-items: flex-end;
             padding-left: .5rem;
         }
-
         &--validation {
             background: #99e2d0;
             margin: -1rem -5rem -1rem 1rem;
@@ -69,7 +60,6 @@
             align-items: center;
             transition-duration: .5s;
         }
-
         &--icon {
             width: 1.6rem;
             height: 1.6rem;
@@ -80,25 +70,21 @@
             border-radius: 100px;
             transform: rotate(360deg);
             transition-duration: .5s;                
-
             i {
                 color: #99e2d0;
             }
         }
-
         &:hover {
             .menu__item {
                 &--validation {
                     margin-right: -1rem;
                 }
-
                 &--icon {
                     transform: rotate(0);
                 }
             }
         }
     }
-
    
 }
 @media screen and (min-width: 1024px) {
@@ -110,7 +96,6 @@
         }
     }
 }
-
 @media screen and (min-width: 1200px) {
     main {
         width: 70%;
